@@ -8,7 +8,6 @@ class Kereta {
     private int kapasitas;
     private double harga;
     private List<Jadwal> daftarJadwal;
-    private List<Kursi> daftarKursi;
     
     public Kereta(int id, String nama, String kelas, int kapasitas, double harga) {
         this.id = id;
