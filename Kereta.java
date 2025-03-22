@@ -16,10 +16,6 @@ class Kereta {
         this.kapasitas = kapasitas;
         this.harga = harga;
         this.daftarJadwal = new ArrayList<>();
-        this.daftarKursi = new ArrayList<>();
-        for (int i = 1; i <= kapasitas; i++) {
-            daftarKursi.add(new Kursi(i));
-        }
     }
     public void tambahJadwal(Jadwal jadwal) {
         daftarJadwal.add(jadwal);
